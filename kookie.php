@@ -2,9 +2,9 @@
 
 /*
 Plugin Name: cookie bar customized
-Plugin URI: http://duckduckgo.com
+Plugin URI: https://github.com/MatthiasLiszt/cookiebarplugin4wordpress
 Description: a EU conform cookie bar on the bottom of your wordpress page
-Version: 0.0
+Version: 0.1
 Author: MatthiasLiszt
 Author URI: http://matthiasliszt.github.io
 
