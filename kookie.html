@@ -1,0 +1,28 @@
+
+<div id="law" style="display:none"></div>
+
+
+Auf der Website werden Tools zur Datensammlungen verwendet, z. B. Cookies. 
+<a class="kookielink" href="/wp-content/plugins/kookie/setkookie.php">Akzeptieren</a> 
+<button style="border:none;font-size:100%;" onclick="showLaw()" >Mehr lesen</button>
+
+<script>
+function showLaw(){
+ var law=document.getElementById('law');
+ var xhr=new XMLHttpRequest();
+ xhr.onreadystatechange=function(e){
+                                 if (xhr.readyState == 4 && xhr.status == 200) {
+                                  law.innerHTML = xhr.responseText;
+                                  alert(law.textContent);
+                                 } 
+                        };
+ xhr.open("GET", "/wp-content/plugins/kookie/kookielaw.html", true);
+ xhr.setRequestHeader('Content-type', 'text/html');
+ xhr.send();
+}
+</script>
+
+
+
+
+

@@ -1,0 +1,52 @@
+
+
+#kookiespan {
+	background-color: white;
+        color: black;
+        position: fixed;
+        z-index: 1000001;
+        bottom: 0vh;
+        width: 100vw;
+        height: 24px;
+        font-size: 19px;
+        padding-left: 21px;
+        text-align: left;
+        overflow: auto;
+}
+
+.kookielink {
+ color: black;
+}
+
+.kookiebutton{
+ border: none;
+}
+
+.kookiebar {
+	background-color: white;
+        color: black;
+        position: fixed;
+        z-index: 999999;;
+        bottom: 0vh;
+        width: 100vw;
+        height: 28px;
+        font-size: 19px;
+        padding-left: 21px;
+        text-align: left;
+        overflow: auto;
+}
+
+#kookieframe {
+	background-color: white;
+        color: black;
+        position: fixed;
+        z-index: 999999;;
+        bottom: 0vh;
+        width: 100vw;
+        height: 28px;
+        font-size: 19px;
+        padding-left: 21px;
+        text-align: left;
+        overflow: auto;
+}
+
